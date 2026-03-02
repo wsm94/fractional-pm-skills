@@ -177,9 +177,13 @@ After generating the PRD:
 
 3. **Save the Document**:
    ```bash
-   # Always save to outputs directory
+   # Save to the appropriate outputs directory for the current environment
+   # Claude Web sandbox:
    cp /home/claude/PRD_[Feature_Name].md /mnt/user-data/outputs/
+   # Claude Code (VS Code / CLI):
+   # Save to the current working directory or project root
    ```
+   > **Note:** The save path depends on the environment. In Claude Web/Desktop sandbox, use `/mnt/user-data/outputs/`. In Claude Code, save to the current working directory.
 
 ## Quality Checklist
 

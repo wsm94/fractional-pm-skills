@@ -172,9 +172,9 @@ export default function UserProfileForm() {
 ```jsx
 export default function UsersList() {
   const [users, setUsers] = useState([
-    { id: 1, name: "Sarah Chen", email: "sarah.chen@acme.com", role: "Admin", status: "active" },
-    { id: 2, name: "Marcus Johnson", email: "marcus.j@acme.com", role: "Editor", status: "active" },
-    { id: 3, name: "Emma Williams", email: "emma.w@acme.com", role: "Viewer", status: "invited" },
+    { id: 1, name: "Sarah Chen", email: "sarah.chen@example.com", role: "Admin", status: "active" },
+    { id: 2, name: "Marcus Johnson", email: "marcus.j@example.com", role: "Editor", status: "active" },
+    { id: 3, name: "Emma Williams", email: "emma.w@example.com", role: "Viewer", status: "invited" },
   ])
   const [loading, setLoading] = useState(false)
 
@@ -526,7 +526,7 @@ Before considering a mockup complete, verify:
 10. **Mix design systems** - If using shadcn, use it consistently throughout
 
 ### Do:
-1. **Use realistic data** - "Sarah Chen", "sarah.chen@acme.com", "$45,231"
+1. **Use realistic data** - "Sarah Chen", "sarah.chen@example.com", "$45,231"
 2. **Show workflows** - Multiple screens showing user journey
 3. **Make it interactive** - Buttons change state, tabs switch content
 4. **Consider edge cases** - What happens with 0 items? 1000 items? Really long text?
