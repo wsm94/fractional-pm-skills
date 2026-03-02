@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cat:*)",
+      "Bash(git rm:*)",
+      "Bash(npm install:*)",
+      "Bash(claude mcp add:*)",
+      "Bash(curl:*)",
+      "Bash(git add:*)",
+      "Bash(grep:*)",
+      "Bash(npm run build:*)",
+      "mcp__linear-server__list_teams",
+      "mcp__linear-server__list_issue_statuses",
+      "mcp__linear-server__list_issue_labels",
+      "mcp__linear-server__create_issue",
+      "mcp__linear-server__get_issue",
+      "mcp__linear-server__update_issue",
+      "Bash(npm run lint:*)",
+      "Bash(npm test:*)",
+      "Bash(find:*)",
+      "Bash(git rev-parse:*)"
+    ]
+  }
+}
